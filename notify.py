@@ -16,7 +16,7 @@ from settings import log, req
 
 class Notify(object):
     """Push all in one
-    :param SCKEY: Server酱的SCKEY.详见文档: https://sc.ftqq.com/
+    :param SCKEY: Server酱的SCKEY.详见文档: https://sctapi.ftqq.com/
     :param COOL_PUSH_SKEY: Cool Push的SKEY.详见文档: https://cp.xuthus.cc/
     :param COOL_PUSH_MODE: Cool Push的推送方式.可选私聊(send)、群组(group)或者微信(wx),默认: send
     :param BARK_KEY: Bark的IP或设备码.例如: https://api.day.app/xxxxxx
